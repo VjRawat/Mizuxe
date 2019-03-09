@@ -18,4 +18,6 @@ npm install
 npm start
 ```
 
-Files are compiled into /src
+```
+## Credit goes to udemy 
+
