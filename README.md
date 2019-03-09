@@ -1,3 +1,11 @@
+# Bootstrap 4 Starter Pack (Version 4.0.0)
+
+Latest version of Bootstrap 4! Automation with Gulp and support for sass!
+
+### Version
+
+2.0.0
+
 ## Install Dependencies
 
 ```bash
@@ -9,10 +17,4 @@ npm install
 ```bash
 npm start
 ```
-<<<<<<< HEAD
 ## Credit goes to udemy 
-=======
-
-## Credit goes to udemy 
-
->>>>>>> 59b4b618ce0fac379e6d9bed716188a11851f292
