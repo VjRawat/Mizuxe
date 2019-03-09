@@ -9,16 +9,53 @@
         <title>Mizuxe Theme</title>
     </head>
 
-    <body>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top py-4">
+    <body id="#home">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
-                    <img src="images/logo.png" alt="" width="50" height="50">
+                    <img src="images/logo.png" alt="logo" width="50" height="50"><h3 class="d-inline align-middle text-dark">Mizuxe</h3>
                 </a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-               
+               <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                           <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#authors" class="nav-link">Meet The Authors</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                   </ul>
+               </div>
             </div>
         </nav>
+
+        <!-- SHOWCASE -->
+        <section id="showcase" class="py-5">
+            <div class="primary-overlay text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 text-center">
+                            <h1 class="display-2 mt-5 pt-5">
+                                Do What You Dream Of...
+                            </h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, omnis. Minima, quo nesciunt blanditiis commodi illum corrupti repellendus ab sunt, aperiam consequatur debitis labore optio fuga sapiente enim assumenda esse.
+                            </p>
+                            <a href="" class="btn btn-outline-secondary btn-lg text-white"><i class="fa fa-arrow-right"></i> Read more</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/book2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
