@@ -18,6 +18,5 @@ npm install
 npm start
 ```
 
-```
 ## Credit goes to udemy 
 
